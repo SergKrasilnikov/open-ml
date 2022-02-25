@@ -8,6 +8,7 @@ def separation(line, unit_list=[]):
             else:
                 unit = line[i_unit]
             unit_list.append(unit)
+
     return unit_list
 
 with open('import_file_3.txt') as file:
